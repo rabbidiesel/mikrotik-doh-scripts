@@ -1,0 +1,41 @@
+name: Update DoH Blocklist
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # daily at 2am UTC
+  workflow_dispatch:       # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate .rsc blocklist
+        run: |
+          # Download the dibdot IPv4 list
+          curl -sL https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt -o raw.txt
+
+          # Convert to MikroTik .rsc format
+          echo "# DoH blocklist - auto-generated $(date -u '+%Y-%m-%d %H:%M UTC')" > doh-blocklist.rsc
+          echo "/ip firewall address-list" >> doh-blocklist.rsc
+
+          grep -v '^#' raw.txt | grep -v '^$' | while read -r line; do
+            ip=$(echo "$line" | awk '{print $1}' | tr -d '\r')
+            if [ -n "$ip" ]; then
+              echo "add list=DoH-Servers address=$ip timeout=1d" >> doh-blocklist.rsc
+            fi
+          done
+
+          rm raw.txt
+          echo "Generated $(grep -c 'add list=' doh-blocklist.rsc) entries"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add doh-blocklist.rsc
+          git diff --staged --quiet || git commit -m "Update DoH blocklist $(date -u '+%Y-%m-%d')" && git push
