@@ -1,4 +1,4 @@
-# DoH blocklist - auto-generated 2026-07-31 05:34 UTC
+# DoH blocklist - auto-generated 2026-08-01 05:25 UTC
 /ip firewall address-list
 add list=DoH-Servers address=1.0.0.1 timeout=1d
 add list=DoH-Servers address=1.0.0.2 timeout=1d
@@ -18,6 +18,10 @@ add list=DoH-Servers address=3.34.32.82 timeout=1d
 add list=DoH-Servers address=3.75.122.89 timeout=1d
 add list=DoH-Servers address=3.93.106.173 timeout=1d
 add list=DoH-Servers address=3.140.31.159 timeout=1d
+add list=DoH-Servers address=3.171.61.34 timeout=1d
+add list=DoH-Servers address=3.171.61.46 timeout=1d
+add list=DoH-Servers address=3.171.61.91 timeout=1d
+add list=DoH-Servers address=3.171.61.113 timeout=1d
 add list=DoH-Servers address=3.217.50.0 timeout=1d
 add list=DoH-Servers address=3.220.132.190 timeout=1d
 add list=DoH-Servers address=3.221.40.56 timeout=1d
@@ -33,7 +37,6 @@ add list=DoH-Servers address=5.75.213.223 timeout=1d
 add list=DoH-Servers address=5.75.228.192 timeout=1d
 add list=DoH-Servers address=5.78.98.38 timeout=1d
 add list=DoH-Servers address=5.78.102.99 timeout=1d
-add list=DoH-Servers address=5.78.158.2 timeout=1d
 add list=DoH-Servers address=5.79.70.195 timeout=1d
 add list=DoH-Servers address=5.134.118.198 timeout=1d
 add list=DoH-Servers address=5.135.96.35 timeout=1d
@@ -42,6 +45,7 @@ add list=DoH-Servers address=5.152.130.27 timeout=1d
 add list=DoH-Servers address=5.160.117.105 timeout=1d
 add list=DoH-Servers address=5.161.43.197 timeout=1d
 add list=DoH-Servers address=5.161.191.104 timeout=1d
+add list=DoH-Servers address=5.161.194.22 timeout=1d
 add list=DoH-Servers address=5.175.180.171 timeout=1d
 add list=DoH-Servers address=5.180.59.37 timeout=1d
 add list=DoH-Servers address=5.188.227.13 timeout=1d
@@ -58,6 +62,10 @@ add list=DoH-Servers address=9.9.9.10 timeout=1d
 add list=DoH-Servers address=9.9.9.11 timeout=1d
 add list=DoH-Servers address=9.9.9.12 timeout=1d
 add list=DoH-Servers address=9.9.9.13 timeout=1d
+add list=DoH-Servers address=13.32.205.26 timeout=1d
+add list=DoH-Servers address=13.32.205.32 timeout=1d
+add list=DoH-Servers address=13.32.205.100 timeout=1d
+add list=DoH-Servers address=13.32.205.105 timeout=1d
 add list=DoH-Servers address=13.89.120.251 timeout=1d
 add list=DoH-Servers address=13.205.104.79 timeout=1d
 add list=DoH-Servers address=13.211.90.38 timeout=1d
@@ -196,13 +204,18 @@ add list=DoH-Servers address=17.248.169.199 timeout=1d
 add list=DoH-Servers address=17.248.169.200 timeout=1d
 add list=DoH-Servers address=17.248.169.201 timeout=1d
 add list=DoH-Servers address=17.248.175.2 timeout=1d
+add list=DoH-Servers address=17.248.175.9 timeout=1d
+add list=DoH-Servers address=17.248.175.12 timeout=1d
 add list=DoH-Servers address=17.248.175.13 timeout=1d
+add list=DoH-Servers address=17.248.175.20 timeout=1d
+add list=DoH-Servers address=17.248.175.21 timeout=1d
 add list=DoH-Servers address=17.248.175.22 timeout=1d
 add list=DoH-Servers address=17.248.175.24 timeout=1d
 add list=DoH-Servers address=17.248.175.36 timeout=1d
 add list=DoH-Servers address=17.248.175.37 timeout=1d
 add list=DoH-Servers address=17.248.175.39 timeout=1d
 add list=DoH-Servers address=17.248.175.41 timeout=1d
+add list=DoH-Servers address=17.248.175.43 timeout=1d
 add list=DoH-Servers address=17.248.185.2 timeout=1d
 add list=DoH-Servers address=17.248.185.3 timeout=1d
 add list=DoH-Servers address=17.248.185.4 timeout=1d
@@ -357,6 +370,8 @@ add list=DoH-Servers address=17.248.247.78 timeout=1d
 add list=DoH-Servers address=17.248.247.79 timeout=1d
 add list=DoH-Servers address=17.248.247.80 timeout=1d
 add list=DoH-Servers address=17.248.247.81 timeout=1d
+add list=DoH-Servers address=17.248.247.82 timeout=1d
+add list=DoH-Servers address=17.248.247.83 timeout=1d
 add list=DoH-Servers address=17.250.48.44 timeout=1d
 add list=DoH-Servers address=17.250.48.45 timeout=1d
 add list=DoH-Servers address=17.250.49.2 timeout=1d
@@ -388,6 +403,7 @@ add list=DoH-Servers address=17.250.96.120 timeout=1d
 add list=DoH-Servers address=17.250.96.121 timeout=1d
 add list=DoH-Servers address=17.250.98.135 timeout=1d
 add list=DoH-Servers address=17.250.98.138 timeout=1d
+add list=DoH-Servers address=17.250.102.236 timeout=1d
 add list=DoH-Servers address=17.250.104.15 timeout=1d
 add list=DoH-Servers address=17.250.104.18 timeout=1d
 add list=DoH-Servers address=17.250.104.19 timeout=1d
@@ -422,20 +438,17 @@ add list=DoH-Servers address=17.253.82.241 timeout=1d
 add list=DoH-Servers address=17.253.82.243 timeout=1d
 add list=DoH-Servers address=17.253.96.119 timeout=1d
 add list=DoH-Servers address=17.253.96.247 timeout=1d
+add list=DoH-Servers address=18.171.166.181 timeout=1d
 add list=DoH-Servers address=18.200.70.220 timeout=1d
 add list=DoH-Servers address=18.202.82.211 timeout=1d
 add list=DoH-Servers address=18.211.221.129 timeout=1d
-add list=DoH-Servers address=18.238.96.18 timeout=1d
-add list=DoH-Servers address=18.238.96.53 timeout=1d
-add list=DoH-Servers address=18.238.96.82 timeout=1d
-add list=DoH-Servers address=18.238.96.85 timeout=1d
 add list=DoH-Servers address=18.252.156.1 timeout=1d
 add list=DoH-Servers address=18.254.96.167 timeout=1d
 add list=DoH-Servers address=20.196.107.56 timeout=1d
 add list=DoH-Servers address=20.219.170.173 timeout=1d
 add list=DoH-Servers address=20.239.160.119 timeout=1d
 add list=DoH-Servers address=20.253.254.201 timeout=1d
-add list=DoH-Servers address=23.82.16.56 timeout=1d
+add list=DoH-Servers address=23.82.16.57 timeout=1d
 add list=DoH-Servers address=23.94.211.166 timeout=1d
 add list=DoH-Servers address=23.95.11.50 timeout=1d
 add list=DoH-Servers address=23.128.248.2 timeout=1d
@@ -471,7 +484,6 @@ add list=DoH-Servers address=34.193.99.130 timeout=1d
 add list=DoH-Servers address=34.193.125.153 timeout=1d
 add list=DoH-Servers address=34.206.229.254 timeout=1d
 add list=DoH-Servers address=34.231.85.198 timeout=1d
-add list=DoH-Servers address=35.179.128.7 timeout=1d
 add list=DoH-Servers address=35.190.14.201 timeout=1d
 add list=DoH-Servers address=35.192.98.208 timeout=1d
 add list=DoH-Servers address=35.212.141.74 timeout=1d
@@ -500,7 +512,6 @@ add list=DoH-Servers address=37.221.95.37 timeout=1d
 add list=DoH-Servers address=37.221.194.95 timeout=1d
 add list=DoH-Servers address=37.228.129.160 timeout=1d
 add list=DoH-Servers address=37.235.49.95 timeout=1d
-add list=DoH-Servers address=38.32.110.58 timeout=1d
 add list=DoH-Servers address=38.45.64.117 timeout=1d
 add list=DoH-Servers address=38.47.180.115 timeout=1d
 add list=DoH-Servers address=38.107.232.115 timeout=1d
@@ -533,7 +544,6 @@ add list=DoH-Servers address=45.8.222.101 timeout=1d
 add list=DoH-Servers address=45.8.222.102 timeout=1d
 add list=DoH-Servers address=45.8.222.103 timeout=1d
 add list=DoH-Servers address=45.11.45.11 timeout=1d
-add list=DoH-Servers address=45.32.75.24 timeout=1d
 add list=DoH-Servers address=45.32.86.63 timeout=1d
 add list=DoH-Servers address=45.33.60.119 timeout=1d
 add list=DoH-Servers address=45.33.66.148 timeout=1d
@@ -635,6 +645,7 @@ add list=DoH-Servers address=51.158.99.7 timeout=1d
 add list=DoH-Servers address=51.158.147.92 timeout=1d
 add list=DoH-Servers address=51.159.67.129 timeout=1d
 add list=DoH-Servers address=51.159.138.172 timeout=1d
+add list=DoH-Servers address=51.161.115.44 timeout=1d
 add list=DoH-Servers address=51.178.29.75 timeout=1d
 add list=DoH-Servers address=51.178.82.98 timeout=1d
 add list=DoH-Servers address=51.178.136.114 timeout=1d
@@ -660,6 +671,10 @@ add list=DoH-Servers address=54.90.232.69 timeout=1d
 add list=DoH-Servers address=54.169.113.231 timeout=1d
 add list=DoH-Servers address=54.172.110.180 timeout=1d
 add list=DoH-Servers address=54.187.149.240 timeout=1d
+add list=DoH-Servers address=54.192.55.54 timeout=1d
+add list=DoH-Servers address=54.192.55.71 timeout=1d
+add list=DoH-Servers address=54.192.55.73 timeout=1d
+add list=DoH-Servers address=54.192.55.95 timeout=1d
 add list=DoH-Servers address=54.223.159.81 timeout=1d
 add list=DoH-Servers address=54.224.16.96 timeout=1d
 add list=DoH-Servers address=54.237.92.28 timeout=1d
@@ -671,7 +686,6 @@ add list=DoH-Servers address=58.87.96.15 timeout=1d
 add list=DoH-Servers address=59.127.0.184 timeout=1d
 add list=DoH-Servers address=59.127.175.174 timeout=1d
 add list=DoH-Servers address=60.205.247.82 timeout=1d
-add list=DoH-Servers address=62.46.45.122 timeout=1d
 add list=DoH-Servers address=62.133.35.15 timeout=1d
 add list=DoH-Servers address=62.192.153.243 timeout=1d
 add list=DoH-Servers address=62.210.6.110 timeout=1d
@@ -688,17 +702,9 @@ add list=DoH-Servers address=64.120.95.36 timeout=1d
 add list=DoH-Servers address=64.176.188.144 timeout=1d
 add list=DoH-Servers address=64.227.132.183 timeout=1d
 add list=DoH-Servers address=64.235.41.14 timeout=1d
-add list=DoH-Servers address=65.8.20.20 timeout=1d
-add list=DoH-Servers address=65.8.20.29 timeout=1d
-add list=DoH-Servers address=65.8.20.99 timeout=1d
-add list=DoH-Servers address=65.8.20.102 timeout=1d
-add list=DoH-Servers address=65.8.20.113 timeout=1d
-add list=DoH-Servers address=65.8.20.125 timeout=1d
-add list=DoH-Servers address=65.8.20.127 timeout=1d
-add list=DoH-Servers address=65.8.20.128 timeout=1d
 add list=DoH-Servers address=65.21.253.73 timeout=1d
+add list=DoH-Servers address=66.33.60.129 timeout=1d
 add list=DoH-Servers address=66.55.159.186 timeout=1d
-add list=DoH-Servers address=66.63.177.126 timeout=1d
 add list=DoH-Servers address=66.154.118.103 timeout=1d
 add list=DoH-Servers address=66.175.223.143 timeout=1d
 add list=DoH-Servers address=66.187.4.39 timeout=1d
@@ -726,8 +732,7 @@ add list=DoH-Servers address=74.208.208.172 timeout=1d
 add list=DoH-Servers address=75.119.137.239 timeout=1d
 add list=DoH-Servers address=76.76.2.11 timeout=1d
 add list=DoH-Servers address=76.76.2.22 timeout=1d
-add list=DoH-Servers address=76.76.21.142 timeout=1d
-add list=DoH-Servers address=76.76.21.164 timeout=1d
+add list=DoH-Servers address=76.76.21.61 timeout=1d
 add list=DoH-Servers address=76.223.54.146 timeout=1d
 add list=DoH-Servers address=77.68.29.63 timeout=1d
 add list=DoH-Servers address=77.68.50.239 timeout=1d
@@ -757,7 +762,7 @@ add list=DoH-Servers address=79.143.240.7 timeout=1d
 add list=DoH-Servers address=79.143.240.77 timeout=1d
 add list=DoH-Servers address=79.143.240.79 timeout=1d
 add list=DoH-Servers address=79.143.240.81 timeout=1d
-add list=DoH-Servers address=79.184.22.92 timeout=1d
+add list=DoH-Servers address=79.184.6.195 timeout=1d
 add list=DoH-Servers address=79.229.132.247 timeout=1d
 add list=DoH-Servers address=79.250.65.178 timeout=1d
 add list=DoH-Servers address=80.67.169.12 timeout=1d
@@ -884,6 +889,7 @@ add list=DoH-Servers address=93.4.84.37 timeout=1d
 add list=DoH-Servers address=93.66.205.24 timeout=1d
 add list=DoH-Servers address=93.95.115.21 timeout=1d
 add list=DoH-Servers address=93.190.126.69 timeout=1d
+add list=DoH-Servers address=93.231.22.18 timeout=1d
 add list=DoH-Servers address=94.16.111.86 timeout=1d
 add list=DoH-Servers address=94.16.117.107 timeout=1d
 add list=DoH-Servers address=94.23.71.64 timeout=1d
@@ -919,7 +925,7 @@ add list=DoH-Servers address=95.229.168.3 timeout=1d
 add list=DoH-Servers address=96.9.215.92 timeout=1d
 add list=DoH-Servers address=96.9.228.27 timeout=1d
 add list=DoH-Servers address=96.44.178.68 timeout=1d
-add list=DoH-Servers address=96.106.7.232 timeout=1d
+add list=DoH-Servers address=96.106.7.234 timeout=1d
 add list=DoH-Servers address=96.113.151.145 timeout=1d
 add list=DoH-Servers address=98.83.80.22 timeout=1d
 add list=DoH-Servers address=98.89.153.17 timeout=1d
@@ -935,7 +941,7 @@ add list=DoH-Servers address=101.101.101.101 timeout=1d
 add list=DoH-Servers address=101.198.192.33 timeout=1d
 add list=DoH-Servers address=101.198.193.29 timeout=1d
 add list=DoH-Servers address=101.236.69.43 timeout=1d
-add list=DoH-Servers address=102.113.120.88 timeout=1d
+add list=DoH-Servers address=102.113.70.90 timeout=1d
 add list=DoH-Servers address=102.222.106.96 timeout=1d
 add list=DoH-Servers address=103.1.223.110 timeout=1d
 add list=DoH-Servers address=103.2.57.5 timeout=1d
@@ -1151,8 +1157,8 @@ add list=DoH-Servers address=109.230.224.150 timeout=1d
 add list=DoH-Servers address=109.234.165.186 timeout=1d
 add list=DoH-Servers address=109.236.119.2 timeout=1d
 add list=DoH-Servers address=109.236.120.2 timeout=1d
-add list=DoH-Servers address=109.250.197.179 timeout=1d
-add list=DoH-Servers address=109.250.205.158 timeout=1d
+add list=DoH-Servers address=109.250.197.196 timeout=1d
+add list=DoH-Servers address=109.250.204.34 timeout=1d
 add list=DoH-Servers address=111.20.254.35 timeout=1d
 add list=DoH-Servers address=111.170.6.190 timeout=1d
 add list=DoH-Servers address=111.170.19.184 timeout=1d
@@ -1161,6 +1167,7 @@ add list=DoH-Servers address=112.78.125.221 timeout=1d
 add list=DoH-Servers address=112.118.79.154 timeout=1d
 add list=DoH-Servers address=112.163.234.61 timeout=1d
 add list=DoH-Servers address=112.213.32.219 timeout=1d
+add list=DoH-Servers address=114.10.44.238 timeout=1d
 add list=DoH-Servers address=114.33.26.67 timeout=1d
 add list=DoH-Servers address=114.34.0.56 timeout=1d
 add list=DoH-Servers address=115.36.30.74 timeout=1d
@@ -1248,7 +1255,6 @@ add list=DoH-Servers address=135.181.248.48 timeout=1d
 add list=DoH-Servers address=136.243.156.176 timeout=1d
 add list=DoH-Servers address=136.244.65.20 timeout=1d
 add list=DoH-Servers address=137.66.7.89 timeout=1d
-add list=DoH-Servers address=137.220.48.110 timeout=1d
 add list=DoH-Servers address=138.2.72.94 timeout=1d
 add list=DoH-Servers address=138.2.75.228 timeout=1d
 add list=DoH-Servers address=138.2.122.236 timeout=1d
@@ -1290,6 +1296,7 @@ add list=DoH-Servers address=143.20.12.32 timeout=1d
 add list=DoH-Servers address=143.47.51.218 timeout=1d
 add list=DoH-Servers address=143.47.228.93 timeout=1d
 add list=DoH-Servers address=143.198.172.202 timeout=1d
+add list=DoH-Servers address=143.244.60.197 timeout=1d
 add list=DoH-Servers address=143.244.128.32 timeout=1d
 add list=DoH-Servers address=144.22.131.193 timeout=1d
 add list=DoH-Servers address=144.22.247.219 timeout=1d
@@ -1326,6 +1333,7 @@ add list=DoH-Servers address=147.189.136.104 timeout=1d
 add list=DoH-Servers address=147.189.140.136 timeout=1d
 add list=DoH-Servers address=149.28.70.208 timeout=1d
 add list=DoH-Servers address=149.28.101.119 timeout=1d
+add list=DoH-Servers address=149.28.121.105 timeout=1d
 add list=DoH-Servers address=149.28.144.189 timeout=1d
 add list=DoH-Servers address=149.88.64.107 timeout=1d
 add list=DoH-Servers address=149.104.186.91 timeout=1d
@@ -1429,18 +1437,17 @@ add list=DoH-Servers address=162.221.218.241 timeout=1d
 add list=DoH-Servers address=162.250.6.163 timeout=1d
 add list=DoH-Servers address=162.254.86.13 timeout=1d
 add list=DoH-Servers address=163.172.131.116 timeout=1d
-add list=DoH-Servers address=163.181.60.201 timeout=1d
-add list=DoH-Servers address=163.181.60.202 timeout=1d
-add list=DoH-Servers address=163.181.60.203 timeout=1d
-add list=DoH-Servers address=163.181.60.204 timeout=1d
-add list=DoH-Servers address=163.181.60.205 timeout=1d
-add list=DoH-Servers address=163.181.60.206 timeout=1d
-add list=DoH-Servers address=163.181.60.207 timeout=1d
-add list=DoH-Servers address=163.181.60.208 timeout=1d
+add list=DoH-Servers address=163.181.246.188 timeout=1d
+add list=DoH-Servers address=163.181.246.189 timeout=1d
+add list=DoH-Servers address=163.181.246.190 timeout=1d
+add list=DoH-Servers address=163.181.246.191 timeout=1d
+add list=DoH-Servers address=163.181.246.192 timeout=1d
+add list=DoH-Servers address=163.181.246.193 timeout=1d
+add list=DoH-Servers address=163.181.246.194 timeout=1d
+add list=DoH-Servers address=163.181.246.195 timeout=1d
 add list=DoH-Servers address=164.90.207.7 timeout=1d
 add list=DoH-Servers address=164.132.7.242 timeout=1d
 add list=DoH-Servers address=165.1.79.112 timeout=1d
-add list=DoH-Servers address=165.22.151.242 timeout=1d
 add list=DoH-Servers address=165.99.131.95 timeout=1d
 add list=DoH-Servers address=165.140.117.248 timeout=1d
 add list=DoH-Servers address=165.227.233.200 timeout=1d
@@ -1595,6 +1602,16 @@ add list=DoH-Servers address=172.104.93.80 timeout=1d
 add list=DoH-Servers address=172.104.175.59 timeout=1d
 add list=DoH-Servers address=172.104.206.174 timeout=1d
 add list=DoH-Servers address=172.105.152.133 timeout=1d
+add list=DoH-Servers address=172.224.172.67 timeout=1d
+add list=DoH-Servers address=172.224.172.68 timeout=1d
+add list=DoH-Servers address=172.224.172.69 timeout=1d
+add list=DoH-Servers address=172.224.172.71 timeout=1d
+add list=DoH-Servers address=172.224.172.72 timeout=1d
+add list=DoH-Servers address=172.224.172.73 timeout=1d
+add list=DoH-Servers address=172.224.172.74 timeout=1d
+add list=DoH-Servers address=172.224.172.75 timeout=1d
+add list=DoH-Servers address=172.224.172.76 timeout=1d
+add list=DoH-Servers address=172.224.172.77 timeout=1d
 add list=DoH-Servers address=172.232.50.116 timeout=1d
 add list=DoH-Servers address=172.232.185.183 timeout=1d
 add list=DoH-Servers address=172.233.59.98 timeout=1d
@@ -1624,7 +1641,7 @@ add list=DoH-Servers address=176.111.223.167 timeout=1d
 add list=DoH-Servers address=176.123.10.105 timeout=1d
 add list=DoH-Servers address=176.123.163.193 timeout=1d
 add list=DoH-Servers address=176.147.243.164 timeout=1d
-add list=DoH-Servers address=176.164.170.122 timeout=1d
+add list=DoH-Servers address=176.164.173.142 timeout=1d
 add list=DoH-Servers address=178.20.42.213 timeout=1d
 add list=DoH-Servers address=178.33.118.153 timeout=1d
 add list=DoH-Servers address=178.105.16.6 timeout=1d
@@ -1643,6 +1660,7 @@ add list=DoH-Servers address=178.162.231.57 timeout=1d
 add list=DoH-Servers address=178.162.231.59 timeout=1d
 add list=DoH-Servers address=178.162.231.69 timeout=1d
 add list=DoH-Servers address=178.162.231.73 timeout=1d
+add list=DoH-Servers address=178.191.6.218 timeout=1d
 add list=DoH-Servers address=178.208.3.9 timeout=1d
 add list=DoH-Servers address=178.209.51.242 timeout=1d
 add list=DoH-Servers address=178.248.239.174 timeout=1d
@@ -1666,6 +1684,7 @@ add list=DoH-Servers address=185.64.79.5 timeout=1d
 add list=DoH-Servers address=185.69.161.122 timeout=1d
 add list=DoH-Servers address=185.70.9.10 timeout=1d
 add list=DoH-Servers address=185.71.138.138 timeout=1d
+add list=DoH-Servers address=185.93.1.245 timeout=1d
 add list=DoH-Servers address=185.95.218.42 timeout=1d
 add list=DoH-Servers address=185.95.218.43 timeout=1d
 add list=DoH-Servers address=185.95.219.170 timeout=1d
@@ -1689,6 +1708,7 @@ add list=DoH-Servers address=185.174.138.12 timeout=1d
 add list=DoH-Servers address=185.181.61.24 timeout=1d
 add list=DoH-Servers address=185.183.159.34 timeout=1d
 add list=DoH-Servers address=185.184.223.150 timeout=1d
+add list=DoH-Servers address=185.191.229.13 timeout=1d
 add list=DoH-Servers address=185.194.53.22 timeout=1d
 add list=DoH-Servers address=185.194.94.71 timeout=1d
 add list=DoH-Servers address=185.195.69.126 timeout=1d
@@ -1866,8 +1886,8 @@ add list=DoH-Servers address=216.230.232.29 timeout=1d
 add list=DoH-Servers address=216.238.80.219 timeout=1d
 add list=DoH-Servers address=216.245.140.20 timeout=1d
 add list=DoH-Servers address=216.250.97.148 timeout=1d
-add list=DoH-Servers address=217.0.43.66 timeout=1d
 add list=DoH-Servers address=217.0.43.146 timeout=1d
+add list=DoH-Servers address=217.0.43.162 timeout=1d
 add list=DoH-Servers address=217.69.4.29 timeout=1d
 add list=DoH-Servers address=217.70.184.38 timeout=1d
 add list=DoH-Servers address=217.91.179.72 timeout=1d
@@ -1881,7 +1901,6 @@ add list=DoH-Servers address=217.160.213.186 timeout=1d
 add list=DoH-Servers address=217.169.20.22 timeout=1d
 add list=DoH-Servers address=217.169.20.23 timeout=1d
 add list=DoH-Servers address=217.197.91.153 timeout=1d
-add list=DoH-Servers address=217.255.210.154 timeout=1d
 add list=DoH-Servers address=218.75.4.130 timeout=1d
 add list=DoH-Servers address=220.77.190.196 timeout=1d
 add list=DoH-Servers address=220.132.163.223 timeout=1d
